@@ -69,7 +69,7 @@ Full parameterization of vehicle mechanical dynamics:
 ### Closed-Loop Active Control Diagram (`control_loop.vi`)
 ![Closed Loop Diagram](docs/control_loop_diagram.png)
 
-### Open-Loop Passive Simulation Diagram (`openloop.vi`)
+### Open-Loop Passive Simulation Diagram (`open_loop.vi`)
 ![Open Loop Diagram](docs/open_loop_diagram.png)
 
 ---
