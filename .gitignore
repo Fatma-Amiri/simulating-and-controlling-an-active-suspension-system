@@ -1,0 +1,5 @@
+# LabVIEW auto-generated cache files
+*.aliases
+*.lvlps
+*.lvproj.user
+builds/
