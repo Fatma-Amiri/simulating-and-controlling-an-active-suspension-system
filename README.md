@@ -1,13 +1,13 @@
 # 🚗 𝑺𝒊𝒎𝒖𝒍𝒂𝒕𝒊𝒏𝒈 𝒂𝒏𝒅 𝒄𝒐𝒏𝒕𝒓𝒐𝒍𝒍𝒊𝒏𝒈 𝒂𝒏 𝒂𝒄𝒕𝒊𝒗𝒆 𝒔𝒖𝒔𝒑𝒆𝒏𝒔𝒊𝒐𝒏 𝒔𝒚𝒔𝒕𝒆𝒎
 
-[![LabVIEW](https://img.shields.io/badge/LabVIEW-Control%20%26%20Simulation-orange)](#interactive-front-panel-features)
-[![Control Theory](https://img.shields.io/badge/Control-PID%20Feedback-blue)](#engineering-benchmark--significance)
-[![Automotive](https://img.shields.io/badge/Domain-Automotive%20Mechatronics-green)](#3-configurable-quarter-car-parameters)
+[![LabVIEW](https://img.shields.io/badge/LabVIEW-Control%20%26%20Simulation-orange)](#front-panel)
+[![Control Theory](https://img.shields.io/badge/Control-PID%20Feedback-blue)](#benchmark)
+[![Automotive](https://img.shields.io/badge/Domain-Automotive%20Mechatronics-green)](#parameters)
 
 A dynamic simulation and active control framework for a **Quarter-Car Suspension System** implemented in **NI LabVIEW** using the **Control & Simulation Loop**. This project provides an interactive interface to analyze, compare, and validate passive (open-loop) versus active PID-controlled (closed-loop) vehicle suspension architectures.
 
 ---
-
+<a id="benchmark"></a>
 ## 🎯 Engineering Benchmark & Significance
 
 In automotive engineering, suspension design requires balancing two fundamentally conflicting requirements:
@@ -18,6 +18,7 @@ A passive suspension (spring + damper) is always a compromise. By introducing an
 
 ---
 
+<a id="front-panel"></a>
 ## ⚙️ Interactive Front Panel Features
 
 The custom LabVIEW Front Panel UI provides full interactive control over system inputs, parameters, and live monitoring:
@@ -32,6 +33,7 @@ Simulate realistic road profiles via an input selector:
 * **Sine Signal:** Analyzes steady-state harmonic excitation at specific frequencies.
 * **Chirp Signal:** Sweeps across a continuous frequency spectrum to test system resonance and stability.
 
+<a id="parameters"></a>
 ### 3. Configurable Quarter-Car Parameters
 Full parameterization of vehicle mechanical dynamics:
 
